@@ -33,7 +33,7 @@ var searchData map[string]int = map[string]int{
 type Day1 struct{}
 
 func (d Day1) InputFileName() string {
-	return "d1.txt"
+	return "input/d1.txt"
 }
 
 func (d Day1) Part1(input []string) (string, error) {
